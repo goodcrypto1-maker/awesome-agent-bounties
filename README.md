@@ -1,6 +1,6 @@
 # VB103 participation campaign
 
-**First public release: 4 October 2026. Two documentation contributions are prepared; no independent adoption or payout is claimed.**
+**First public release: 2026-10-04 01:01:21 UTC. Two documentation PRs are open; independent substantive reviews and merges are pending. Zero qualifying adoptions or new payouts are claimed.**
 
 Executor GitHub identity: [goodcrypto1-maker](https://github.com/goodcrypto1-maker). Base wallet: `0x2f9e06d13f8Fb5cD35398F36c3C584623b6eDb38`. The account owner is the beneficiary. ChatGPT assisted research and drafting; no independent collaborator or adopting maintainer is claimed at this stage. No adopter is paid, no derivative bounty has been funded, and no affiliation with the candidate owners is known from the records reviewed. Ambiguous independence must be excluded.
 
@@ -15,7 +15,7 @@ The executor seeks the conditional stage fees and may author the proposed PRs. O
 - One further day is for search indexing only, not later merges. The contract's submission deadline is **2026-10-10 01:38:26 UTC**; use that exact contract value.
 - Stage 2 ($30 proposed) and stage 3 ($40 proposed) are conditional follow-ons. Neither is asserted funded. Read each actual directed brief if and when posted after the preceding payout.
 
-The original proposal called for publication before funding. This README is first published after funding, before the campaign PRs are opened. The pre-funding publication prerequisite was not met; the chronology is disclosed rather than represented as pre-T0 publication. The first public commit records the publication time, and any evidence submission must disclose this deviation.
+The original proposal called for publication before funding. This README is first published after funding, before the campaign PRs are opened. The pre-funding publication prerequisite was not met; the chronology is disclosed rather than represented as pre-T0 publication. The [first public commit](https://github.com/goodcrypto1-maker/awesome-agent-bounties/commit/3a4ccf7317fed65120affa75f398ba704b1e7d07) records publication at 2026-10-04T01:01:21Z, before PR 16 (01:09:55Z) and PR 6 (01:12:17Z). Any evidence submission must disclose this deviation.
 
 ## Public baseline and searches
 
@@ -29,10 +29,10 @@ Public search totals enumerate candidates, not qualifying owners. Review origina
 
 ## Candidate manifest
 
-| Candidate owner/repository | Prepared work | Public PR | Status |
+| Candidate owner/repository | Contributed work | Public PR | Status |
 |---|---|---|---|
-| [Scottcjn/awesome-agent-bounties](https://github.com/Scottcjn/awesome-agent-bounties) | Agent Platforms entry and discovery/fee guide | None | Draft; zero adoption credit |
-| [ishandutta2007/Awesome-AI-Agent-Marketplace](https://github.com/ishandutta2007/Awesome-AI-Agent-Marketplace) | Two-sentence open-source marketplace entry | None | Draft; zero adoption credit |
+| [Scottcjn/awesome-agent-bounties](https://github.com/Scottcjn/awesome-agent-bounties) | Agent Platforms entry and discovery/fee guide | [PR 16](https://github.com/Scottcjn/awesome-agent-bounties/pull/16) | Open, created 2026-10-04T01:09:55Z; reviews/merge pending; zero adoption credit |
+| [ishandutta2007/Awesome-AI-Agent-Marketplace](https://github.com/ishandutta2007/Awesome-AI-Agent-Marketplace) | Two-sentence open-source marketplace entry | [PR 6](https://github.com/ishandutta2007/Awesome-AI-Agent-Marketplace/pull/6) | Open, created 2026-10-04T01:12:17Z; reviews/merge pending; zero adoption credit |
 
 Both repositories and owners predate T0 by at least 30 days. Scottcjn's [repository metadata](https://api.github.com/repos/Scottcjn/awesome-agent-bounties) records creation 2026-03-18T17:33:23Z; [owner metadata](https://api.github.com/users/Scottcjn) records 2022-12-23T14:51:25Z. The owner merged [PR 14](https://github.com/Scottcjn/awesome-agent-bounties/pull/14) on 2026-06-11, demonstrating pre-T0 work. Ishan's [repository metadata](https://api.github.com/repos/ishandutta2007/Awesome-AI-Agent-Marketplace) records 2026-05-13T18:01:50Z; [owner metadata](https://api.github.com/users/ishandutta2007) records 2012-10-10T10:10:31Z. The owner merged [PR 3](https://github.com/ishandutta2007/Awesome-AI-Agent-Marketplace/pull/3) on 2026-08-13. These are candidate eligibility checks, not proof of acceptance. Check the actual reviewing and merging identities when new events occur.
 
