@@ -1,6 +1,6 @@
 # VB103 participation campaign
 
-**First public release: 2026-10-04 01:01:21 UTC. Two documentation PRs are open; independent substantive reviews and merges are pending. Zero qualifying adoptions or new payouts are claimed.**
+**First public release: 2026-10-04 01:01:21 UTC. As of 2026-10-04 23:17 UTC, one documentation PR remains open and one was closed without merge; independent substantive reviews and merges are pending. Zero qualifying adoptions or new payouts are claimed.**
 
 Executor GitHub identity: [goodcrypto1-maker](https://github.com/goodcrypto1-maker). Base wallet: `0x2f9e06d13f8Fb5cD35398F36c3C584623b6eDb38`. The account owner is the beneficiary. ChatGPT assisted research and drafting; no independent collaborator or adopting maintainer is claimed at this stage. No adopter is paid, no derivative bounty has been funded, and no affiliation with the candidate owners is known from the records reviewed. Ambiguous independence must be excluded.
 
@@ -31,7 +31,7 @@ Public search totals enumerate candidates, not qualifying owners. Review origina
 
 | Candidate owner/repository | Contributed work | Public PR | Status |
 |---|---|---|---|
-| [Scottcjn/awesome-agent-bounties](https://github.com/Scottcjn/awesome-agent-bounties) | Agent Platforms entry and discovery/fee guide | [PR 16](https://github.com/Scottcjn/awesome-agent-bounties/pull/16) | Open, created 2026-10-04T01:09:55Z; reviews/merge pending; zero adoption credit |
+| [Scottcjn/awesome-agent-bounties](https://github.com/Scottcjn/awesome-agent-bounties) | Agent Platforms entry and discovery/fee guide | [PR 16](https://github.com/Scottcjn/awesome-agent-bounties/pull/16) | Closed without merge 2026-10-04T21:45:02Z: maintainer declined conditional paid placement and pay-first/off-platform crypto services. Respect the decision; no reopening or replacement proposal in this owner's repositories. Zero adoption credit |
 | [ishandutta2007/Awesome-AI-Agent-Marketplace](https://github.com/ishandutta2007/Awesome-AI-Agent-Marketplace) | Two-sentence open-source marketplace entry | [PR 6](https://github.com/ishandutta2007/Awesome-AI-Agent-Marketplace/pull/6) | Open, created 2026-10-04T01:12:17Z; reviews/merge pending; zero adoption credit |
 
 Both repositories and owners predate T0 by at least 30 days. Scottcjn's [repository metadata](https://api.github.com/repos/Scottcjn/awesome-agent-bounties) records creation 2026-03-18T17:33:23Z; [owner metadata](https://api.github.com/users/Scottcjn) records 2022-12-23T14:51:25Z. The owner merged [PR 14](https://github.com/Scottcjn/awesome-agent-bounties/pull/14) on 2026-06-11, demonstrating pre-T0 work. Ishan's [repository metadata](https://api.github.com/repos/ishandutta2007/Awesome-AI-Agent-Marketplace) records 2026-05-13T18:01:50Z; [owner metadata](https://api.github.com/users/ishandutta2007) records 2012-10-10T10:10:31Z. The owner merged [PR 3](https://github.com/ishandutta2007/Awesome-AI-Agent-Marketplace/pull/3) on 2026-08-13. These are candidate eligibility checks, not proof of acceptance. Check the actual reviewing and merging identities when new events occur.
