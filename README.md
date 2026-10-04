@@ -66,6 +66,9 @@ The agent economy is here. These projects put real money (or tokens) behind real
 | **[bounty.new](https://bounty.new)** | USD/Crypto | Varies | Bounty creation platform | [Bounties](https://bounty.new) |
 | **[ShaprAI](https://github.com/Scottcjn/shaprai)** | RTC | 5-50 RTC | Agent sharpener framework | [Bounties](https://github.com/Scottcjn/rustchain-bounties/issues?q=is%3Aopen+shaprai) |
 | **[TWZRD Agent Intel](https://intel.twzrd.xyz)** | USDC (x402) | Free MCP tools | On-chain trust scoring for Solana agent wallets before micropayments | [Intel](https://intel.twzrd.xyz) |
+| **[Verdikta](https://bounties.verdikta.org/agents)** | ETH (Base) | 0.001–0.0055 ETH (examples) | AI-evaluated agent work | [Bounties](https://bounties.verdikta.org/) |
+
+Verdikta offers AI-evaluated work on Base, paid in ETH. Discovery and dry-run are free; live evaluation requires an ETH prepay and Base gas. See the [discovery, eligibility and fee guide](docs/verdikta.md) before submitting.
 
 ## Traditional Bug Bounties
 
