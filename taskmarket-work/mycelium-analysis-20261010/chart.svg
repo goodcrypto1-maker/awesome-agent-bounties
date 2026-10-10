@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">Mycelium Finance: two different denominators</title>
+<desc id="desc">Ten returned project liquidity rows totaling 35,337.81 dollars, partial coverage. Five token distribution categories totaling one billion originally minted MYC. Dollar allocation includes MYC and ESF labelled pools.</desc>
+<rect width="1200" height="675" fill="#EDE0D4"/>
+<g font-family="Georgia, serif" fill="#1B1A17">
+<text x="42" y="58" font-size="34">Mycelium Finance</text>
+<text x="42" y="91" font-size="20">Two views. Different denominators.</text>
+<line x1="42" y1="112" x2="1158" y2="112" stroke="#A9805A"/>
+<text x="42" y="148" font-size="22">Returned project liquidity</text>
+<text x="42" y="176" font-size="17">$35,337.81 total · partial coverage</text>
+<text x="684" y="148" font-size="22">Originally minted $MYC</text>
+<text x="684" y="176" font-size="17">1,000,000,000 tokens · shares of minted supply</text>
+<text x="42" y="227" font-size="17">Knots</text>
+<rect x="169" y="210" width="229.0551" height="23" rx="3" fill="#7A8E3A"/>
+<text x="430" y="227" font-size="16">$7,419.78  ·  21.00%</text>
+<text x="42" y="259" font-size="17">Parcl</text>
+<rect x="169" y="242" width="159.2675" height="23" rx="3" fill="#A9805A"/>
+<text x="430" y="259" font-size="16">$5,159.15  ·  14.60%</text>
+<text x="42" y="291" font-size="17">Gable</text>
+<rect x="169" y="274" width="113.1757" height="23" rx="3" fill="#B08C77"/>
+<text x="430" y="291" font-size="16">$3,666.10  ·  10.37%</text>
+<text x="42" y="323" font-size="17">Solana</text>
+<rect x="169" y="306" width="111.0342" height="23" rx="3" fill="#7A8E3A"/>
+<text x="430" y="323" font-size="16">$3,596.73  ·  10.18%</text>
+<text x="42" y="355" font-size="17">Kintara</text>
+<rect x="169" y="338" width="110.3501" height="23" rx="3" fill="#A9805A"/>
+<text x="430" y="355" font-size="16">$3,574.57  ·  10.12%</text>
+<text x="42" y="387" font-size="17">Streamflow</text>
+<rect x="169" y="370" width="98.3932" height="23" rx="3" fill="#B08C77"/>
+<text x="430" y="387" font-size="16">$3,187.25  ·  9.02%</text>
+<text x="42" y="419" font-size="17">Guacamole</text>
+<rect x="169" y="402" width="89.5817" height="23" rx="3" fill="#7A8E3A"/>
+<text x="430" y="419" font-size="16">$2,901.82  ·  8.21%</text>
+<text x="42" y="451" font-size="17">JubJub</text>
+<rect x="169" y="434" width="88.3191" height="23" rx="3" fill="#A9805A"/>
+<text x="430" y="451" font-size="16">$2,860.92  ·  8.10%</text>
+<text x="42" y="483" font-size="17">Daydreams</text>
+<rect x="169" y="466" width="88.0530" height="23" rx="3" fill="#B08C77"/>
+<text x="430" y="483" font-size="16">$2,852.30  ·  8.07%</text>
+<text x="42" y="515" font-size="17">USD Coin</text>
+<rect x="169" y="498" width="3.6795" height="23" rx="3" fill="#7A8E3A"/>
+<text x="430" y="515" font-size="16">$119.19  ·  0.34%</text>
+<text x="684" y="220" font-size="17">Trading liquidity  ·  6.67%</text>
+<rect x="684" y="230" width="38.9144" height="23" rx="3" fill="#a9805a"/>
+<text x="684" y="282" font-size="17">Locked LP liquidity  ·  14.48%</text>
+<rect x="684" y="292" width="84.4913" height="23" rx="3" fill="#3F6B2A"/>
+<text x="684" y="344" font-size="17">Unlocked LP liquidity  ·  23.60%</text>
+<rect x="684" y="354" width="137.6711" height="23" rx="3" fill="#A9C65C"/>
+<text x="684" y="406" font-size="17">Locked token supply  ·  55.10%</text>
+<rect x="684" y="416" width="321.4429" height="23" rx="3" fill="#855439"/>
+<text x="684" y="468" font-size="17">Burned  ·  0.14%</text>
+<rect x="684" y="478" width="0.8136" height="23" rx="3" fill="#B08C77"/>
+<text x="42" y="550" font-size="18">Largest 3: 45.97% · largest 5: 66.26%</text>
+<text x="684" y="550" font-size="16">Locked LP ≠ time-locked token supply</text>
+<line x1="42" y1="573" x2="1158" y2="573" stroke="#A9805A"/>
+<text x="42" y="602" font-size="15">Snapshot: 10 October 2026, 20:52 UTC · Source: free Mycelium Finance MCP tools</text>
+<text x="42" y="628" font-size="15">Dollar panel mixes MYC/ and ESF/ pool labels; token panel counts MYC only. Values rounded.</text>
+<text x="42" y="654" font-size="14">Made by an AI agent for a Taskmarket bounty · descriptive snapshot, no investment recommendation</text>
+</g></svg>
