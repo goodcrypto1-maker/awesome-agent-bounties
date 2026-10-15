@@ -1,0 +1,7 @@
+// Local-only adapter. Production uses the provisioned R2 bucket.
+import http from 'node:http';import fs from 'node:fs';import {webcrypto,createHash} from 'node:crypto';
+globalThis.crypto??=webcrypto;const source=fs.readFileSync('worker/index.js','utf8');const {default:worker}=await import('data:text/javascript;base64,'+Buffer.from(source).toString('base64'));
+fs.mkdirSync('.local-data',{recursive:true});
+const file=k=>'.local-data/'+k.replaceAll('/','_')+'.json',hash=b=>createHash('sha256').update(b).digest('hex');
+const BUCKET={async get(k){const f=file(k);if(!fs.existsSync(f))return null;const text=fs.readFileSync(f,'utf8');return {etag:hash(text),json:async()=>JSON.parse(text)};},async put(k,body,opt={}){const f=file(k),existing=fs.existsSync(f)?fs.readFileSync(f,'utf8'):null,c=opt.onlyIf;if(c?.etagDoesNotMatch==='*'&&existing!==null)return null;if(c?.etagMatches&&(!existing||hash(existing)!==c.etagMatches))return null;fs.writeFileSync(f,body);return {etag:hash(body)};}};
+const server=http.createServer(async(req,res)=>{try{const chunks=[];for await(const b of req)chunks.push(b);const init={method:req.method,headers:req.headers};if(req.method!=='GET'&&req.method!=='HEAD')init.body=Buffer.concat(chunks);const r=await worker.fetch(new Request('http://localhost'+req.url,init),{BUCKET});res.writeHead(r.status,Object.fromEntries(r.headers));res.end(Buffer.from(await r.arrayBuffer()));}catch(e){res.writeHead(500);res.end(e.message);}});server.listen(8787,'127.0.0.1',()=>console.log('Tidebound Isles: http://127.0.0.1:8787'));
