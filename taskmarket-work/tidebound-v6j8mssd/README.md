@@ -1,6 +1,8 @@
 # Tidebound Isles
 
-**Play:** https://tidebound-isles-v6j8mssd.goodcrypto1.chatgpt.site
+**Hosted build:** https://tidebound-isles-v6j8mssd.goodcrypto1.chatgpt.site
+
+**Hosting verification limitation (15 October 2026):** deployment succeeded and the site is public, but the build environment's normal anonymous HTTP client receives Cloudflare403, error1010, before the Worker is reached. Live API checks could not run. This is not a verified public-play handoff or a completed bounty submission. The source and dependency-free local version are available below; no hosting-filter bypass was attempted.
 
 An original turn-based territory game for **2–4 human and/or agent captains**, built for [Taskmarket TSK-V6J8MSSD](https://taskmarket.dev/tasks/0x1fb989a3256eadc92fe09e863ca36bed7765e5bcb2f8d2c28183201e467c272d). AI-assisted original design and implementation; no reused competitor game or submission.
 
