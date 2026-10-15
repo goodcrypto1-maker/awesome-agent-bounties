@@ -1,0 +1,1 @@
+{"name":"tidebound-isles","private":true,"type":"module","scripts":{"test":"node test.mjs","start":"node dev-server.mjs"}}
