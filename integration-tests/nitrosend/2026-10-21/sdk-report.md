@@ -1,0 +1,9 @@
+# Nitrosend SDK first-send test
+
+- Versions: Node 24.19.0, npm 11.9.0, `@nitrosend/sdk` 0.11.6, TypeScript 7.0.2, `@types/node` 26.6.5. Initial SDK package files date from 06:46:10 UTC on 21 October. I repeated `npm install @nitrosend/sdk@0.11.6 typescript@7.0.2 @types/node@26.6.5 --ignore-scripts --no-audit --no-fund` after receipt to verify installation.
+- Script: 21 lines; imports the published SDK, loads `NITROSEND_API_KEY` and `NITROSEND_IDEMPOTENCY_KEY` from the environment, and passes the latter as a plain string to `messages.send`. The fetch wrapper blocks redirects and automatic second requests without changing SDK identity headers.
+- Compile/run: project `./node_modules/.bin/tsc --strict` exited 0 in 0.571 seconds with ES2022/NodeNext, `types:["node"]`, `outDir:"dist"`, and package `type:"module"`. `node dist/send-sdk.js` exited 0 in 7.942 seconds: `{"id":5131580,"status":"queued"}`.
+- Result/timing: Nitrosend's SDK receipt confirmed arrival at 08:14:00 UTC, 87.8 minutes after initial installation. Operator-approval pauses dominated elapsed time; no extra person was needed to write, compile or execute the script after approval.
+- No SDK defect found in strict compilation, environment-key loading and the single real HTML send. I did not test retries or fault injection. An explicit-file TypeScript 7 compile first returned TS5112 because a config existed; the compiler's advised `--ignoreConfig` resolved it. That is not an SDK defect.
+- Reproduction command for that independent strict check: `./node_modules/.bin/tsc --ignoreConfig --strict --types node --target ES2022 --module NodeNext --moduleResolution NodeNext --outDir dist send-sdk.ts` (exit 0).
+- Checked the published SDK README, signature and TypeScript-7 Node-types note. Suggested improvement: put a complete environment-key, NodeNext configuration and compile/run example beside the transactional-message quickstart.
